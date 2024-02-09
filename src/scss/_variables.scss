@@ -287,6 +287,7 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 $primary: #FFFEFC ;
+$primary-shade: #EDECEB;
 $secondary: #274156 ;
 $success: $green ;
 $info: $cyan ;
@@ -294,6 +295,7 @@ $warning: $yellow ;
 $danger: $red ;
 $light: $gray-100 ;
 $dark: $gray-900 ;
+
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -502,8 +504,8 @@ $box-shadow-lg: 0 1rem 3rem rgba($black, .175) ;
 $box-shadow-inset: inset 0 1px 2px rgba($black, .075) ;
 // scss-docs-end box-shadow-variables
 
-$component-active-color: $white ;
-$component-active-bg: $primary ;
+$component-active-color: $secondary ;
+$component-active-bg: $primary-shade ;
 
 // scss-docs-start caret-variables
 $caret-width: .3em ;
@@ -889,7 +891,7 @@ $form-check-transition: null ;
 $form-check-input-active-filter: brightness(90%) ;
 
 $form-check-input-bg: $input-bg ;
-$form-check-input-border: 1px solid rgba($black, .25) ;
+$form-check-input-border: 1px solid rgba($black, .35) ;
 $form-check-input-border-radius: .25em ;
 $form-check-radio-border-radius: 50% ;
 $form-check-input-focus-border: $input-focus-border-color ;
